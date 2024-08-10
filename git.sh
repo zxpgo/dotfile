@@ -29,3 +29,4 @@ git branch #all branchs in local
 git branch -vv
 git branch branch_name
 git checkout branch_name
+git commit -a -m "comment"
