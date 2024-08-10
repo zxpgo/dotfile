@@ -6,6 +6,7 @@ git commit -a #commit all change, but not include not add file
 git cat-file -p ef4098837df
 git log
 git log --all --graph --decorate
+git log --all --graph --decorate --oneline
 
 git checkout 0e0fc053f5772d1db #move head point, will change wokring directoyr
 git checkout -f 0e0fc053f5772d1db #warning: will destory your change, and force to checkout
