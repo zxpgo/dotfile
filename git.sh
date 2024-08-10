@@ -15,3 +15,16 @@ git diff
 git diff 0e0fc053f5772d1db3 git.sh
 git diff 0e0fc053f5772d1db3 b797a1960da6d1a6
 git diff 0e0fc053f5772d1db3 b797a1960da6d1a6 git.sh
+
+#if git status is detach 
+git checkout -b git_command
+git checkout base
+git merge git_command
+git branch -d git_command
+#here HEAD --> base
+
+
+git branch #all branchs in local
+git branch -vv
+git branch branch_name
+git checkout branch_name
