@@ -62,3 +62,7 @@ git stach pop
 git bisect
 
 echo "*.o" >> .gitignore
+
+#vim 
+Gblame
+
