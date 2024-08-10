@@ -26,3 +26,15 @@ git branch -d git_command
 
 git checkout -b branch_name #create new branch and checkout to new branchhttps://www.bilibili.com/video/BV1Aj421X7ox?t=3406.4&p=6
 git commit -a -m "comment"
+
+#merge two branch to master
+git checkout masert
+git merge cat 
+git merge dog
+git mergetool
+git commit 
+
+git remote
+git remote add origin git@github.com:zxpgo/dotfile.git
+git push
+
