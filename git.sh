@@ -9,6 +9,7 @@ git log --all --graph --decorate
 
 git checkout 0e0fc053f5772d1db #move head point, will change wokring directoyr
 git checkout -f 0e0fc053f5772d1db #warning: will destory your change, and force to checkout
+git checkout hello.txt #drop change
 
 git diff
 git diff 0e0fc053f5772d1db3 git.sh
