@@ -24,9 +24,5 @@ git merge git_command
 git branch -d git_command
 #here HEAD --> base
 
-
-git branch #all branchs in local
-git branch -vv
-git branch branch_name
-git checkout branch_name
 git checkout -b branch_name #create new branch and checkout to new branchhttps://www.bilibili.com/video/BV1Aj421X7ox?t=3406.4&p=6
+git commit -a -m "comment"
