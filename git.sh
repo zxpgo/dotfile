@@ -2,6 +2,9 @@ git init
 git add file_name
 
 git add :/ #add all file
+git add -p file_name #interface to select code stage
+git diff
+git diff --cached
 git commit -a #commit all change, but not include not add file
 git cat-file -p ef4098837df
 git log
@@ -36,5 +39,26 @@ git commit
 
 git remote
 git remote add origin git@github.com:zxpgo/dotfile.git
+git push origin master:master
+git branch --set-upstream-to=origin/master [your_branch] #set your_branch corrspond to remote branch, after can user git pull/push with no param
 git push
 
+git fetch #get remote branch data
+git pull
+
+git clone remote_url local_folder
+git clone --shallow remote_url #download quickly, just have the latest snapshot
+
+#other
+git config
+vim ~/.gitconifg
+
+git blame
+git show c2d98458
+
+git stash
+git stach pop
+
+git bisect
+
+echo "*.o" >> .gitignore
