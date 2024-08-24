@@ -27,8 +27,6 @@ alias ga="gdb attach"
 alias killw="./killprocess.sh world"
 alias kills="./killprocess.sh scene"
 
-alias g="svn ls http://sh-svn.tencent.com/ied/ied_qssvr_rep/qssvr_proj/branches|grep Branch_GServer | awk 'END {print}'"
-alias bn="svn ls http://sh-svn.tencent.com/ied/ied_qssvr_rep/qssvr_proj/branches|grep Branch_NServer | awk 'END {print}'"
 alias sb="svn blame"
 alias script="cd ~/scripts"
 
@@ -40,10 +38,6 @@ alias sbl='env LC_ALL=zh_CN svn blame'
 alias sci='env LC_ALL=zh_CN svn ci' 
 alias sup='env LC_ALL=zh_CN svn up' 
 alias slo='env LC_ALL=zh_CN svn log'
-alias sm='env LC_ALL=zh_CN svn merge http://sh-svn.tencent.com/ied/ied_qssvr_rep/qssvr_proj/trunk/release/qss/src . -c' 
-alias qm='env LC_ALL=zh_CN svn merge http://sh-svn.tencent.com/ied/ied_qssvr_rep/qssvr_proj/trunk/release/qsshome . -c' 
-alias psm='env LC_ALL=zh_CN svn merge http://sh-svn.tencent.com/ied/ied_qssvr_rep/qssvr_proj/branches/Branch_OB_Publish/release/qss/src . -c' 
-alias pqm='env LC_ALL=zh_CN svn merge http://sh-svn.tencent.com/ied/ied_qssvr_rep/qssvr_proj/branches/Branch_OB_Publish/release/qsshome . -c' 
 
 alias fcore='find . -regex ".*/core\.[0-9]+"'
 alias f='find . -name'
@@ -58,11 +52,6 @@ alias idc_env="cd ~/idc_env/idc_env_two_ori_svr/"
 alias cdg="cd  ~/workspace/Branch_GServers_*/release/qss/src"
 alias v='vim'
 
-alias lg="svn ls http://sh-svn.tencent.com/ied/ied_qssvr_rep/qssvr_proj/branches|grep Branch_GServers|tail -n 1"
-alias gg="svn co -N http://sh-svn.tencent.com/ied/ied_qssvr_rep/qssvr_proj/branches/\"$(lg)\""
-
-alias ln="svn ls http://sh-svn.tencent.com/ied/ied_qssvr_rep/qssvr_proj/branches|grep Branch_NServers|tail -n 1"
-alias gn="svn co -N http://sh-svn.tencent.com/ied/ied_qssvr_rep/qssvr_proj/branches/\"$(ln)\""
 
 alias slol='env LC_ALL=zh_CN svn log | sed -n "/xiaopinzhao/,/-----$/p" | less'
 alias slolv='env LC_ALL=zh_CN svn log -v | sed -n "/xiaopinzhao/,/-----$/p" | less'
