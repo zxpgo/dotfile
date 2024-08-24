@@ -1,14 +1,6 @@
 
-TRUNK="/data/home/xiaopinzhao/workspace/trunk/release"
-PUBLISH="/data/home/xiaopinzhao/workspace/Branch_OB_Publish/release"
-
-
 alias cs="cd ${TRUNK}/qss/src"
 alias cq='cd ${TRUNK}qsshome'
-alias c2q='cd /data/home/xiaopinzhao/workspace/trunk2/release/qsshome'
-alias c2s='cd /data/home/xiaopinzhao/workspace/trunk2/release/qss/src'
-alias ori2="cd /data/home/xiaopinzhao/workspace/trunk_ori2/release/qsshome"
-alias idc2="cd /data/home/xiaopinzhao/workspace/trunk_idc/release/qsshome"
 
 alias pub="cd ${PUBLISH}/qss/src"
 alias pubq="cd ${PUBLISH}/qsshome"
@@ -21,7 +13,6 @@ alias sr="svn resolve"
 
 alias pp="ps ux"
 alias pa="ps aux"
-alias gs="cd /data/home/xiaopinzhao/workspace/"
 alias psc="ps -ux | grep scened"
 alias ga="gdb attach"
 alias killw="./killprocess.sh world"
@@ -44,8 +35,6 @@ alias f='find . -name'
 alias k='kill -9 ' 
 alias vtune='/data/intel/oneapi/vtune/latest/bin64/vtune -run-pass-thru=--no-altstack -collect hotspots -target-pid '
 alias p='ps ux | grep '
-alias pro="sh /data/home/xiaopinzhao/scripts/search_proto.sh "
-alias err="sh /data/home/xiaopinzhao/scripts/find_errcode.sh  "
 
 
 alias idc_env="cd ~/idc_env/idc_env_two_ori_svr/"
@@ -53,8 +42,8 @@ alias cdg="cd  ~/workspace/Branch_GServers_*/release/qss/src"
 alias v='vim'
 
 
-alias slol='env LC_ALL=zh_CN svn log | sed -n "/xiaopinzhao/,/-----$/p" | less'
-alias slolv='env LC_ALL=zh_CN svn log -v | sed -n "/xiaopinzhao/,/-----$/p" | less'
+alias slol='env LC_ALL=zh_CN svn log | sed -n "/author/,/-----$/p" | less'
+alias slolv='env LC_ALL=zh_CN svn log -v | sed -n "/author/,/-----$/p" | less'
 
 alias sa="source ~/env_tty/alias"
 alias va="vim ~/env_tty/alias"
